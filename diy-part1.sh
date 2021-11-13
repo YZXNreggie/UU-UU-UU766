@@ -18,3 +18,4 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 echo 'src-git luci https://github.com/openwrt/luci.git' >>feeds.conf.default
+echo 'src-git package https://github.com/Droid-MAX/luci-app-lingtigamebooster.git'>feeds.conf.default
