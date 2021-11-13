@@ -17,4 +17,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-echo 'src-git lean https://github.com/coolsnowwolf/lede/tree/master/package/lean' >>feeds.conf.default
+echo 'src-git packages https://github.com/immortalwrt/packages.git;openwrt-18.06' >>feeds.conf.default
+echo 'src-git luci https://github.com/immortalwrt/luci.git;openwrt-18.06' >>feeds.conf.default
+echo 'src-git routing https://github.com/immortalwrt/routing.git;openwrt-18.06' >>feeds.conf.default
+echo 'src-git telephony https://github.com/openwrt/telephony.git' >>feeds.conf.default
